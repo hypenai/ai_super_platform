@@ -1,0 +1,21 @@
+data_path: 'data/raw_data.json'
+hyperdimensional:
+  dimension: 10000
+  encoding_method: 'random'
+feature_extraction:
+  enabled: true
+  method: 'pca'
+  n_components: 100
+neural_architecture_search:
+  search_space:
+    - [64, 32]
+    - [128, 64, 32]
+    - [256, 128, 64, 32]
+bayesian_optimization:
+  max_iterations: 50
+quantum_inspired:
+  enabled: true
+  unitary_dimension: 1000
+logging:
+  level: 'INFO'
+  file: 'ai_super_platform.log'

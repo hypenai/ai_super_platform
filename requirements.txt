@@ -1,0 +1,8 @@
+PyYAML==5.4.1
+
+numpy
+scipy
+joblib
+pandas
+cachetools
+aiohttp
